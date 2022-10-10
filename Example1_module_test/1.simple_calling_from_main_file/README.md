@@ -41,4 +41,8 @@ g++ main.o a_module.o -o say_hi_you
 
 #g++ -c -std=c++20 -fmodules-ts main.cpp a_module.cpp -o say_hi_you
 #gcc -c -std=c++20 -fmodules-ts main.cpp a_module.cpp -o say_hi_you
+
+# or
+g++ -std=c++20 -fmodules-ts main.cpp a_module.cpp -o say_hi_you
+g++ -std=c++20 -fmodules-ts main.cpp a_module.cpp -o say_hi_you
 ```
