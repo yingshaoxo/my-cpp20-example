@@ -1,6 +1,6 @@
 #include <gtk/gtk.h>
 
-//import "a_module.cpp"
+import "a_module.cpp"
 
   
 static int counter = 0;
@@ -21,7 +21,7 @@ void destroy(GtkWidget* widget, gpointer data)
   
 int main(int argc, char* argv[])
 {
-    //my_greeting();
+    my_greeting();
   
     GtkWidget* window;
     GtkWidget* button;
